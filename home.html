@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+        </style>
+    <title>home page</title>
+    <style>
+        h1 {
+            display: flex;
+            color: rgb(8, 4, 0);
+            justify-content: center;
+            margin: 25px;
+            font-size: 40px;
+            font-family:"ubuntu",serif;
+            text-shadow: 5px 1px 10px black;
+        }
+        .h1{
+            border: 2px solid black;
+            height: 50px;
+            width: 95%;
+            background-color: #bcdcdc;
+            border-radius: 15px;
+            box-shadow: -17px 5px 18px black;
+        }
+
+        
+        body::before{
+            content: "";
+            background: url("home2.JPeG") no-repeat center center/cover;
+            width: 100vw;
+            height: 100%;
+            background-size: 100vw 100vh; 
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            opacity:0.8;
+        }
+
+        .navbar {
+            background-color: rgb(242, 245, 245);
+            border-radius: 30px;
+            box-shadow: inset 5px 10px 19px black;
+        }
+
+        .navbar ul {
+            overflow: auto;
+        }
+        
+        .navbar li {
+            /* display: flex; */
+            float: left;
+            list-style: none;
+            margin: 13px 20px;
+            /* padding: 20px 108px; */
+            /* color: rgb(22, 13, 1);*/
+            font-size: 22px;
+            font-style: bold;
+
+        }
+
+        .item li:hover {
+            cursor: pointer;
+
+        }
+
+        a {
+            text-decoration: none;
+            color: darkgreen;
+
+        }
+
+        a:hover {
+            color:lightslategray;
+            text-decoration: underline;
+
+        }
+       
+       
+    </style>
+</head>
+
+<body>
+    
+    <h1 class="h1">Welcome To Indian Railways</h1>
+    <div class="container">
+        <header class="navbar">
+            <ul class="item">
+                <li id="nav1"><a href="home2.html"><strong>Home</strong></a></li>
+                <li id="nav3"><a href="reservation.html" target="_blank"><strong>Reservation</strong></a></li>
+                <li id="nav2"><a href="find_train.html" target="_blank"><strong>Find Train</strong></a></li>
+                <li id="nav4"><a href="profile.html" target="_blank"><strong>Profile</strong></a></li>
+            </ul>
+        </header>
+
+    </div>
+</body>
+
+</html>

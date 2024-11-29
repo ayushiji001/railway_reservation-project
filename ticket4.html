@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box1 {
+            display: flex;
+            font-size: 25px;
+            padding: 0px 10px;
+            justify-content: center;
+            border: 2px solid darkblue;
+            background-color: rgb(42, 199, 251);
+            border-radius: 40px;
+            box-shadow: 13px 10px 56px black;
+
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        #box2 {
+            border: 2px solid rgb(248, 83, 74);
+            background-color: rgb(248, 83, 74);
+            box-shadow: 17px 18px 25px black;
+            border-radius: 40px;
+            margin: 36px;
+            height: 58px;
+        }
+
+        #box2 li {
+            list-style: none;
+            padding: 0px 60px;
+            float: left;
+            font-size: 25px;
+            /* align-items: center; */
+            justify-content: space-around;
+        }
+
+        #box2 li:hover {
+            cursor: pointer;
+            text-decoration: underline;
+        }
+
+        #box2 :active {
+            color: yellow;
+        }
+
+        body {
+            /* background-image: url(ticket1.jpeg); */
+            /* background-size: cover; */
+            background-color: antiquewhite;
+
+        }
+
+        .normal {
+            color: black;
+            background-color: pink;
+            border-radius: 30px;
+            box-shadow: inset 20px 20px 20px white;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            display: flex;
+            font-size: 15px;
+            /* margin: auto; */
+            justify-content: center;
+            margin: 20px 0px;
+        }
+
+        .mini {
+            padding: 0px 200px 0px 0px;
+            font-family: cursive;
+        }
+
+        header {
+            border: 6px solid black;
+            border-radius: 5px;
+            height: 150px;
+            width: 450px;
+            margin: 23px 25px;
+            background-color: chocolate;
+        }
+
+
+        .stn {
+            display: inline;
+            padding: 31px 0px 0px 130px;
+            font-size: 20px;
+            border: none;
+
+            /* background-color: yellow; */
+        }
+
+        h3 {
+            font-size: 25px;
+        }
+
+
+        .container li {
+            font-family: cursive;
+        }
+
+        #box5 {
+
+            display: flex;
+            justify-content: center;
+        }
+
+        #box5 button {
+            padding: 12px 15px 12px 15px;
+            margin: 30px 50px 0px 30px;
+            border-radius: 20px;
+            color: white;
+            box-shadow: inset 6px -2px 47px black;
+            /* font-size: 20px; */
+        }
+
+        #box5 button:hover {
+            cursor: pointer;
+            color: black;
+        }
+
+        #station1 {
+            border-radius: 20px;
+            border: 3px solid;
+            padding: 10px 0px 10px 10px;
+
+        }
+
+        #station2 {
+            border-radius: 20px;
+            border: 3px solid;
+            padding: 10px 0px 10px 10px;
+
+        }
+
+        .h1 {
+            display: flex;
+            justify-content: center;
+            font-size: 18px;
+            text-decoration: underline white;
+        }
+
+
+        .h1>label {
+            color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container1">
+        <div class="box" id="box1">
+            <h3>TICKET BOOKING</h3>
+        </div>
+        <div class="box" id="box2">
+            <ul>
+                <li class="item"><a href="ticket1.html">Journey Ticket</a></li>
+                <li class="item"><a href="ticket2.html">Quick Booking</a></li>
+                <li class="item"><a href="ticket3.html">Platform Ticket</a></li>
+                <li class="item"><a href="ticket4.html">Season Ticket</a></li>
+            </ul>
+        </div>
+        <div class="box" id="box3">
+            <div class="normal">
+                <h3>SEASON BOOKING</h3>
+            </div>
+            <div class="container">
+                <header id="head1">
+                    <div class="h1">
+                        <input type="radio" class="doc" name="select" id="inp">
+                        <label class="mini" for="inp">Book & Travel(paperless)</label>
+                    </div>
+
+                    <ul>
+                        <li>Use show ticket option on mobile is the travel authority.</li>
+
+                    </ul>
+                </header>
+                <header id="head2">
+                    <div class="h1">
+                        <input type="radio" class="doc" name="select" id="inp1">
+                        <label class="mini" for="inp1">Book & Print(Paper)</label>
+                    </div>
+                    <ul>
+                        <li>Book anywhere</li>
+                        <li>Print ticket at originating station</li>
+                        <li>PRINTD TICKET is Travel authority</li>
+                        <li><b>Travel without ticket printout is punishable</b></li>
+                    </ul>
+                </header>
+            </div>
+
+        </div>
+
+        <div class="box" id="box5">
+            <button>ISSUE TICKET</button>
+            <button>RENEW TICKET</button>
+        </div>
+    </div>
+</body>
+
+</html>

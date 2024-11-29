@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box1 {
+            display: flex;
+            font-size: 25px;
+            padding: 0px 10px;
+            justify-content: center;
+            border: 2px solid darkblue;
+            background-color: rgb(42, 199, 251);
+            border-radius: 40px;
+            box-shadow: 13px 10px 56px black;
+
+        }
+
+        #box2 {
+            border: 2px solid rgb(248, 83, 74);
+            background-color: rgb(248, 83, 74);
+            box-shadow: 17px 22px 33px black;
+            border-radius: 40px;
+            margin: 36px;
+            height: 58px;
+        }
+
+        #box2 li {
+            list-style: none;
+            padding: 0px 60px;
+            float: left;
+            font-size: 25px;
+            /* align-items: center; */
+            justify-content: space-around;
+        }
+
+        #box2 li:hover {
+            cursor: pointer;
+        }
+
+        body {
+            background: url(find_back.jpeg) no-repeat center center/cover ;
+            /* background-size: cover; */
+            /* background-repeat: no-repeat; */
+            
+            /* height: 100vh;
+            width: 100vw; */
+
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box" id="box1">
+            <h3>TICKET BOOKING</h3>
+        </div>
+        <div class="box" id="box2">
+            <ul>
+                <li class="item"><a href="ticket1.html">Journey Ticket</a></li>
+                <li class="item"><a href="ticket2.html">Quick Booking</a></li>
+                <li class="item"><a href="ticket3.html">Platform Ticket</a></li>
+
+                <li class="item"><a href="ticket4.html">Season Ticket</a></li>
+            </ul>
+        </div>
+        <div class="box" id="box3"></div>
+        <div class="box" id="box4"></div>
+    </div>
+</body>
+
+</html>
