@@ -14,28 +14,42 @@
             position: absolute;
             bottom: 0;
             right: 0;
-            /* opacity: 0.5; */
-            /* top: 0; */
             z-index: 19;
         }
-        /* body::before{
-            content: "";
-            opacity: 0.5;
-        } */
+
         .logo img {
             position: fixed;
             z-index: 20;
-            margin: 12px 29px 5px 32px;
-            padding: 18px 11px 7px 0px;
+            margin: 0px 0px 0px 40px;
+            padding: 0px 0px 0px 0px;
             border-radius: 121% 116%;
-            /* opacity: 0.5; */
             height: 120px;
             width: 118px;
-
-            /* background-image: url(logo.jpg); */
-            /* background-repeat: no-repeat; */
-            /* position: relative; */
         }
+        a{
+            font-size: 25px;
+            color: black;
+            text-decoration: none;
+        }
+        .navbar{
+            background-color: rgba(255,255,255,0.5);
+            box-shadow: 0px 4px 20px rgba(0,0,0,0.5);
+            border-radius: 20px;
+            margin: 50px 50px 0px 160px;
+            padding: 0px 0px 40px 10px;
+        }
+        .nav li{
+            float: left;
+            list-style: none;
+            display: flex;
+            margin: 3px 0px 18px 10px;
+            padding: 0px 0px 0px 100px
+
+        }
+        .navbar li:hover{
+            text-decoration: underline;
+        }
+
     </style>
 </head>
 
@@ -45,9 +59,17 @@
         <img src="logo.jpg" alt="">
     </div>
     <div class="navbar">
-        <!-- <p>helloji</p> -->
+        <ul class="nav">
+            <li><a href="home2.html"><strong>Home</strong></a></li>
+            <li><a href="reservation.html" target="_blank"><strong>Reservation</strong></a></li>
+            <li><a href="find_train.html" target="_blank"><strong>Find Train</strong></a></li>
+            <li><a href="profile.html" target="_blank"><strong>Profile</strong></a></li>
+        </ul>
     </div>
     </header>
+    <div class="container">
+        
+    </div>
 </body>
 
 </html>
