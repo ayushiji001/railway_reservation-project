@@ -4,84 +4,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Normal Booking</title>
     <style>
-        #box1 {
-            display: flex;
-            font-size: 25px;
-            padding: 0px 10px;
-            justify-content: center;
-            border: 2px solid darkblue;
-            background-color: rgb(42, 199, 251);
-            border-radius: 40px;
-            box-shadow: 13px 10px 56px black;
-
-        }
-
-        a {
-            text-decoration: none;
-            color: white;
-        }
-
-        #box2 {
-            border: 2px solid rgb(248, 83, 74);
-            background-color: rgb(248, 83, 74);
-            box-shadow: 17px 18px 25px black;
-            border-radius: 40px;
-            margin: 36px;
-            height: 58px;
-        }
-
-        #box2 li {
-            list-style: none;
-            padding: 0px 60px;
-            float: left;
-            font-size: 25px;
-            /* align-items: center; */
-            justify-content: space-around;
-        }
-
-        #box2 li:hover {
-            cursor: pointer;
-            text-decoration: underline;
-
-        }
-
-        #box2 :active {
-            color: yellow;
-        }
-
-
-        body {
-            /* background-image: url(ticket1.jpeg); */
-            /* background-size: cover; */
-            background-color: antiquewhite;
-
+      
+        body{
+            background-image: url(find5.jpg);
         }
 
         .normal {
             color: black;
-            background-color: pink;
+            background-color:rgba(255,255,255,0.7);
+            box-shadow: 0px 4px 20px rgba(0,0,0,0.5);
             border-radius: 30px;
-            box-shadow: inset 20px 20px 20px white;
             display: flex;
             justify-content: center;
         }
 
-        .container {
+        .container{
             display: flex;
             font-size: 15px;
-            /* margin: auto; */
             justify-content: center;
             margin: 20px 0px;
         }
 
-        .mini {
+        .mini{
             padding: 0px 200px 0px 0px;
             font-family: cursive;
         }
 
-        header {
+        header{
             border: 6px solid black;
             border-radius: 5px;
             height: 150px;
@@ -90,51 +41,43 @@
             background-color: chocolate;
         }
 
-        .h1 {
+        .h1{
             display: flex;
             justify-content: center;
             font-size: 18px;
             text-decoration: underline white;
         }
 
-
-
-        .h1>label {
+        .h1>label{
             color: yellow;
         }
 
-
-        label {
-            color: red;
-            font-style: bold;
+        label{
+            color: black;
+            font-style:italic;
+            font-weight:bold;
         }
 
-        h3 {
-            font-size: 25px;
-        }
-
-        .stn {
+        .stn{
             display: inline;
             padding: 31px 0px 0px 130px;
             font-size: 20px;
             border: none;
-
-            /* background-color: yellow; */
         }
 
-        #stn1 {
+        #stn1{
             padding: 0px 0px 0px 166px;
             margin: 0px 40px 0px 0px;
         }
 
-        #stn2 {
+        #stn2{
             padding: 0px 0px 0px 11px;
             margin: 0px 0px 0px 30px;
         }
 
         #stn3 {
-            padding: 0px 0px 0px 0px;
             margin: 0px 0px 0px 40px;
+            padding: 0px 0px 0px 0px;
         }
 
         #station1:hover {
@@ -162,7 +105,6 @@
             border-radius: 20px;
             color: white;
             box-shadow: inset 6px -2px 47px black;
-            /* font-size: 20px; */
         }
 
         #box5 button:hover {
@@ -183,22 +125,15 @@
             padding: 10px 0px 10px 10px;
 
         }
+        h3{
+            font-size: 25px;
+        }
     </style>
 </head>
 
 <body>
     <div class="container1">
-        <div class="box" id="box1">
-            <h3>TICKET BOOKING</h3>
-        </div>
-        <div class="box" id="box2">
-            <ul>
-                <li class="item"><a href="ticket1.html">Journey Ticket</a></li>
-                <li class="item"><a href="ticket2.html">Quick Booking</a> </li>
-                <li class="item"><a href="ticket3.html">Platform Ticket</a></li>
-                <li class="item"><a href="ticket4.html">Season Ticket</a></li>
-            </ul>
-        </div>
+        
         <div class="box" id="box3">
             <div class="normal">
                 <h3>NORMAL BOOKING</h3>
@@ -210,12 +145,10 @@
                         <label class="mini" for="inp">Book & Travel(paperless)</label>
                     </div>
                     <ul>
-                        <li>Use this option if you are outside station premises/Railway track</li>
-                        <li>
-                            Use show ticket option on mobile is the travel authority
-                        </li>
-                        <li>Set your phone GPS to high accuracy mode</li>
-                        <li><b>No cancellation is allowed for paperless ticket</b></li>
+                        <li>Use this option if you are outside station premises/Railway track.</li>
+                        <li>Use show ticket option on mobile is the travel authority.</li>
+                        <li>Set your phone GPS to high accuracy mode.</li>
+                        <li><b>No cancellation is allowed for paperless ticket.</b></li>
                     </ul>
                 </header>
                 <header id="head2">

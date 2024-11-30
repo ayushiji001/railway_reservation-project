@@ -4,69 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Quick Booking</title>
     <style>
-        #box1 {
-            display: flex;
-            font-size: 25px;
-            padding: 0px 10px;
-            justify-content: center;
-            border: 2px solid darkblue;
-            background-color: rgb(42, 199, 251);
-            border-radius: 40px;
-            box-shadow: 13px 10px 56px black;
-
+        body {
+            background-image:url(find5.jpg);
         }
-
-        #box2 {
-            border: 2px solid rgb(248, 83, 74);
-            background-color: rgb(248, 83, 74);
-            box-shadow: 17px 18px 25px black;
-            border-radius: 40px;
-            margin: 36px;
-            height: 58px;
-        }
-
+     
+        
         a {
             text-decoration: none;
-            color: white;
-        }
-
-        #box2 li {
-            list-style: none;
-            padding: 0px 60px;
-            float: left;
-            font-size: 25px;
-            /* align-items: center; */
-            justify-content: space-around;
-        }
-
-        #box2 li:hover {
-            cursor: pointer;
-            text-decoration: underline;
-
-        }
-
-        #box2 :active {
-            color: yellow;
-        }
-
-        h3 {
-            font-size: 25px;
-        }
-
-        body {
-            /* background-image: url(ticket1.jpeg); */
-            /* background-size: cover; */
-            background-color: antiquewhite;
-
+            color: black;
         }
 
         .normal {
             color: black;
-            background-color: pink;
+            background-color: rgba(255,255,255,0.7);
+            box-shadow:  20px 20px 20px grba(0,0,0,0.5);
             border-radius: 30px;
-            box-shadow: inset 20px 20px 20px white;
             display: flex;
             justify-content: center;
         }
@@ -74,7 +28,6 @@
         .container {
             display: flex;
             font-size: 15px;
-            /* margin: auto; */
             justify-content: center;
             margin: 20px 0px;
         }
@@ -92,24 +45,16 @@
             margin: 23px 25px;
             background-color: chocolate;
         }
-
-        .h1 {
-            display: flex;
-            justify-content: center;
-            font-size: 18px;
-            text-decoration: underline white;
-        }
-
-
-
+        
         .h1>label {
             color: yellow;
         }
 
-
         label {
             color: red;
-            font-style: bold;
+            font-style: italic;
+            font-weight: bold;
+            
         }
 
         .stn {
@@ -117,8 +62,6 @@
             padding: 31px 0px 0px 130px;
             font-size: 20px;
             border: none;
-
-            /* background-color: yellow; */
         }
 
         #stn1 {
@@ -132,7 +75,6 @@
         }
 
         #stn3 {
-            padding: 0px 0px 0px 0px;
             margin: 0px 0px 0px 40px;
         }
 
@@ -150,7 +92,6 @@
         }
 
         #box5 {
-
             display: flex;
             justify-content: center;
         }
@@ -161,7 +102,6 @@
             border-radius: 20px;
             color: white;
             box-shadow: inset 6px -2px 47px black;
-            /* font-size: 20px; */
         }
 
         #box5 button:hover {
@@ -182,22 +122,15 @@
             padding: 10px 0px 10px 10px;
 
         }
+        h3{
+            font-size: 25px;
+        }
     </style>
 </head>
 
 <body>
     <div class="container1">
-        <div class="box" id="box1">
-            <h3>TICKET BOOKING</h3>
-        </div>
-        <div class="box" id="box2">
-            <ul>
-                <li class="item"><a href="ticket1.html">Journey Ticket</a></li>
-                <li class="item"><a href="ticket2.html">Quick Booking</a></li>
-                <li class="item"><a href="ticket3.html">Platform Ticket</a></li>
-                <li class="item"><a href="ticket4.html">Season Ticket</a></li>
-            </ul>
-        </div>
+        
         <div class="box" id="box3">
             <div class="normal">
                 <h3>QUICK BOOKING</h3>
