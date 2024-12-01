@@ -5,10 +5,458 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Help Center</title>
+    <style>
+        body {
+            background-color: olivedrab;
+        }
+
+        h3 {
+            color: white;
+            background-color: black;
+            font-size: 35px;
+            border-radius: 15px;
+            display: flex;
+            margin: 0px;
+            padding: 5px 10px 5px 10px;
+        }
+
+        .con {
+            color: white;
+            font-size: 20px;
+            padding: 20px 0px 10px 50px;
+        }
+
+        .container {
+            height: auto;
+            width: auto;
+            border: 2px solid black;
+            border-radius: 20px;
+            background-color: rgba(255, 255, 255, 0.7);
+
+        }
+
+        .lang {
+            margin: 10px 25px;
+            display: flex;
+            justify-content: end;
+        }
+
+        .head {
+            color: brown;
+            font-size: 25px;
+            font-weight: bold;
+            padding: 10px 15px;
+        }
+
+        h4 {
+            font-size: 25px;
+            margin: 4px;
+            padding: 0px 20px;
+        }
+
+        .box summary {
+            font-size: 20px;
+        }
+
+        .box1 {
+            border: 2px solid rgb(133, 116, 116);
+            box-shadow: inset -15px 0px 35px rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            margin: 10px 10px 0px 15px;
+            width: auto;
+        }
+
+        .box2 {
+            border: 2px solid rgb(133, 116, 116);
+            box-shadow: inset -15px 0px 35px rgba(0, 0, 0, 0.5);
+            margin: 10px 10px 0px 15px;
+            border-radius: 10px;
+            width: auto;
+        }
+
+        .box3 {
+            border: 2px solid rgb(133, 116, 116);
+            box-shadow: inset -15px 0px 35px rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            margin: 10px 10px 0px 15px;
+            width: auto;
+        }
+
+        .box4 {
+            border: 2px solid rgb(133, 116, 116);
+            box-shadow: inset -15px 0px 35px rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            margin: 10px 10px 0px 15px;
+            width: auto;
+        }
+
+        .box5 {
+            border: 2px solid rgb(133, 116, 116);
+            box-shadow: inset -15px 0px 35px rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            margin: 10px 10px 10px 15px;
+            width: auto;
+        }
+    </style>
 </head>
 
 <body>
-    <h1>hello ji</h1>
+    <div class="heading">
+        <h3>Help</h3>
+    </div>
+    <div class="con">FAQS</div>
+
+    <div class="container">
+        <div class="lang">
+            <label for="language">Choose your language:</label>
+            <select id="langauage">
+                <option value="en">English</option>
+                <option value="fr">Francais</option>
+                <option value="hi">Hindi</option>
+                <option value="ge">German</option>
+            </select>
+        </div>
+        <div class="head">Frequently Asked Questions</div>
+        <div class="box1 box">
+            <h4>Register/Unregister</h4>
+            <ol>
+                <details>
+                    <summary>1).Who can use the application?</summary>
+                    <p>The services are not available to persons under the age of 12 or to anyone previously suspended
+                        or removed from the services by Indian Railways. By accepting the Terms & Conditions or by
+                        otherwise using the Services or the Site, you represent that You are at least 12 years of age
+                        and have not been previously suspended or removed from the Services. You represent and warrant
+                        that you have the right, authority, and capacity to enter into this Agreement and to abide by
+                        all the terms and conditions of this Agreement. You shall not impersonate any person or entity,
+                        or falsely state or otherwise misrepresent identity, age or affiliation with any person or
+                        entity.</p>
+                </details>
+                <details>
+                    <summary>2).Is it mandatory to register for using the application?</summary>
+                    <p>Yes it is mandatory to register.</p>
+                </details>
+                <details>
+                    <summary>3).Where to do Registration?</summary>
+                    <p>Registration can be done through mobile phone application or website
+                        <a href="https://www.utsonmobile.indianrail.gov.in">link</a>. The passenger will get registered
+                        by providing
+                        his/her mobile number, name, password, gender [Male/Female/Transgender]and date of birth.
+                    </p>
+                </details>
+                <details>
+                    <summary>4).How to login?</summary>
+                    <p>User can login with their registered User-Id and Password or with OTP. Once login has been done,
+                        the login session remains active till midnight of same day i.e till 23:59 hrs of the same day.
+                    </p>
+                </details>
+                <details>
+                    <summary>5).How to unregister from the application?</summary>
+                    <p>Using Close Account option available at UTS Mobile Application or UTS Mobile Ticketing website,
+                        user can unregister their account (i.e. login account of UTS Mobile Ticketing website
+                        <a href="https://www.utsonmobile.indianrail.gov.in">link</a>, as well as login account of
+                        UTSonMobile phone
+                        application).
+                    </p>
+                </details>
+                <details>
+                    <summary>6)How to get remaining R-Wallet balance amount after unregistering from application?
+                    </summary>
+                    <p>Using Close Account option, remaining R-Wallet balance amount will be refunded after deduction of
+                        bonus amount and clerkage charges. After successful close account a confirmation code will be
+                        sent to user's registered mobile number. User have to visit the nearest UTS counter to get the
+                        refund using this confirmation code.</p>
+                </details>
+
+            </ol>
+        </div>
+        <div class="box2 box">
+            <h4>Book Ticket</h4>
+            <ol>
+                <details>
+                    <summary>7).Can a Tikcet be booked inside the station premise?</summary>
+                    <p>According to the Railway commercial rule, a passenger should enter the Railway premises after
+                        purchasing the ticket. Hence, booking a ticket using a utsonmobile application inside the
+                        station premises is not permissible. While booking a ticket through the UTS app; passenger is
+                        supposed to be at least 20 meters away from the Railway track or station.</p>
+                </details>
+                <details>
+                    <summary>8).What are the modes of ticketing through application?</summary>
+                    <p>The passenger can book either Paperless or Paper mode tickets.
+                        <br>
+                        Paperless Ticket: While booking the ticket, the passenger's current geo location will be checked
+                        using phone GPS and the ticket will be booked if the passenger is not inside the Railway fencing
+                        area like station premises and inside the train. The passenger can travel without taking a
+                        hardcopy of the ticket. The smartphone should be GPS enabled. However, the GPS is not required
+                        to book/renew season tickets.
+                        <br>
+                        Paper Ticket: The passenger can book a ticket from anywhere. On successful booking of ticket,
+                        the passenger will get Booking ID along with other ticket details as SMS/Notification. The
+                        passenger should go to the source station and take print out from the ATVM using the booking ID.
+                        The passenger can also approach the UTS booking counter to take a ticket printout.
+                    </p>
+                </details>
+                <details>
+                    <summary>9).What are the types of ticket that can be bought from the application?</summary>
+                    <p>Three types of ticket can be bought such as Journey ticket, Season ticket and Platform ticket
+                        (both Paperless and Paper based).</p>
+                </details>
+                <details>
+                    <summary>10).What types of concessional ticket can be bought from the application?</summary>
+                    <p>presently, booking of only Divyangjan concession journey ticket is permited in UTS on mobilr app.
+                    </p>
+                </details>
+
+
+
+                <details>
+                    <summary>
+                        11).Is it necessary to take the print out of the ticket?
+
+                    </summary>
+
+                    <p>For Paperless mode, the print of the ticket is not required and not allowed.
+                        <br>
+                        For Paper based ticket, the print of the ticket is mandatory and travel without a printed ticket
+                        will enforce a penalty for traveling without a ticket.
+                    </p>
+                </details>
+                <details>
+                    <summary>12).How to take the print out of paper based ticket?
+                    </summary>
+                    <p>The passenger should go to the source station and take print out from the ATVM using the booking
+                        ID. The passenger can also approach the UTS booking counter to take a ticket printout. Travel
+                        without a printed ticket will enforce a penalty for traveling without a ticket.</p>
+                </details>
+                <details>
+                    <summary>13).Is it necessary to carry the same proof of ID which is mentioned in the season ticket?
+                    </summary>
+                    <p>Yes. It is mandatory to carry the Identity card bearing same serial number used at the time of
+                        booking Season Ticket, without which the season ticket will be invalid and the passenger will be
+                        treated as without ticket and penalty will be levied.</p>
+                </details>
+                <details>
+                    <summary>14).What to do if my paper ticket is not printed at the ATVM machines?</summary>
+                    <p> Immediately contact the booking office supervisor or call railway customer care.</p>
+                </details>
+                <details>
+                    <summary>15).Is paperless Season ticketig is valid from the same day of booking? </summary>
+                    <p>User has option to book paperless Season ticket from the same day or the next day & also user can
+                        renew the season ticket maximum 10 days in advance, if a valid season ticket is present on UTS
+                        app.</p>
+                </details>
+                <details>
+                    <summary>16).How to book paperless ticket without any hassle?</summary>
+                    <p>
+                    <ol type="a">
+                        <li>Your phone should be enabled with GPS.</li>
+                        <li>Check your R-WALLET balance for sufficient balance or use other payment optin.</li>
+                        <li>Book your ticket before entering the station premises and verify the ticket in "SHOW TICKET"
+                            option.</li>
+                    </ol>
+                    </p>
+                </details>
+                <details>
+                    <summary>17).What to do if my paperless ticket id not booked, but money got deducted?
+                    </summary>
+                    <p>
+                    <ol type="a">
+                        <li>First check in "TRANSACTION STATUS" whether the transaction is successful or not. If
+                            transaction is successful, then Click the "Show Ticket" button available in the Main screen.
+                            If the booked ticket does not reflect there then sync the ticket and check again.</li>
+                        <li>The option of Having issue or Call Bank or Raise concern or contact us etc. is available at
+                            the bottom of this transaction details. Passenger has to raise the issue accordingly.</li>
+                        <li>*Following options are available at the bottom of this transaction details. Users can inform
+                            their issues accordingly through the payment application.</li>
+                        <li>"Having issue" or "Call Bank" or "Raise concern" or "contact us" etc.</li>
+                    </ol>
+                    </p>
+                </details>
+                <details>
+                    <summary>18).How to cancel a mobile ticket?
+                    </summary>
+                    <p>
+                    <ul>
+                        <li>Paperless ticket is not allowed for cancellation.</li>
+                        <li>Paper ticket can be cancelled in the following method
+                            The cancellation of UTS ticket through mobile application is allowed only if the ticket is
+                            not printed at the ATVM kiosk OR UTS counter</li>
+                    </ul>
+                    </p>
+                </details>
+                <details>
+                    <summary>19).How to show the paperless ticket to the TTE?.
+                    </summary>
+                    <p>Without login, use "SHOW TICKET" option available in the login screen or After login, use SHOW
+                        TICKET option available in the main menu.</p>
+                </details>
+                <details>
+                    <summary>20).Whether "SHOW TICKET" option works in offline mode?
+                    </summary>
+                    <p>Yes, "SHOW TICKET" option work in the offline mode (i.e. without internet).</p>
+                </details>
+                <details>
+                    <summary>21).How long will my paperless platform ticket be valid?
+                    </summary>
+                    <p>According to Railway rules platoform ticket is valid for two hours from the time of booking.</p>
+                </details>
+                <details>
+                    <summary>22).What is the validity of paperless Season Ticket?
+                    </summary>
+                    <p>
+                    <ol type="1">
+                        <li>While booking fresh paperless season ticket on UTS app, user can opt for validity from
+                            Current date or Next day. In case of advance renewal of season ticket, the new validity
+                            period logic is as follow:</li>
+                        <li>In case the season ticket validity period is active, then the new validity period will be
+                            effective from the existing validity period plus one day.</li>
+                    </ol>
+
+                    In case the season ticket validity period is expired, then the new validity period will be from
+                    current day or next day.</p>
+                </details>
+                <details>
+                    <summary>23).How can I book QR code based ticket?
+                    </summary>
+                    <p>Only paperless ticket can be booked via QR Code based ticketing.
+                        <br>
+                        Choose "QR BOOKING" option under "BOOK TICKET" option from Menu.
+                        <br>
+                        Choose "JOURNEY BY QR" for Journey ticket or "PLATFORM BY QR" for Platform ticket.
+                        <br>
+                        Scan the QR code placed at station using your mobile phone.
+                        <br>
+                        Enter destination station.
+                        <br>
+                        Select desired ticket details.
+                        <br>
+                        Choose payment type
+                        <br>
+                        Ticket booked once successful payment for ticket is done
+                    </p>
+                </details>
+                <details></details>
+                <summary>24).Am i allowed to book inter-zonal ticketing?
+                </summary>
+                <p>Yes, you can book ticket for inter-zonal railway station.</p>
+                </details>
+            </ol>
+        </div>
+        <div class="box3 box">
+            <h4>CHANGE HANDSET</h4>
+            <ol>
+
+                <details>
+                    <summary>25).What is the procedure to change the mobile handset?
+                    </summary>
+                    <p>Change of handset is allowed now five times in a month if there is an active ticket. Also note
+                        that there is no limit of changing handset if there is no active ticket.</p>
+                </details>
+                <details>
+                    <summary>26).Can an active ticket be recovered once a passenger changes the handset?
+                    </summary>
+                    <p>Yes, ticket can be recovered by using change handset option. Change of handset is allowed now
+                        five times in a month if there is an active ticket. Also note there is no limit of changing
+                        handset if there is no active ticket..
+
+                        The steps to change the mobile handset is as follows:
+                    <ol type="1">
+                        <li>User has to initiate the change handset (IMEI) request from the existing mobile device.</li>
+                        <li>User has to download the UTS application in the new mobile device.</li>
+                        <li>User needs to login to the UTS application using their credential or login through OTP.</li>
+                        <li>User will use the sync ticket option to re-sync the ticket to the new mobile.</li>
+                        <li>If the user has initiated the change handset(IMEI) request from the existing mobile device
+                            then the user will be able to view the valid ticket after one hour otherwise 24 hour on his
+                            new mobile device. </li>
+                    </ol>
+                    </p>
+                </details>
+                <details>
+                    <summary>27).What if the mobile handset battery is down during the journey?
+                    </summary>
+                    <p>If the passenger is unable to show a paperless ticket to (Train Ticket Examiner) TTE due to the
+                        mobile battery drained out, then the travel of the passenger would be treated as a ticketless
+                        travel and penalty will be imposed. </p>
+                </details>
+                <details>
+                    <summary>28).WHAT if the mobile handset is lost during the journey?
+                    </summary>
+                    <p>The travel of the passenger whould be trated as a ticket less travel and a panelty will be
+                        imposed.</p>
+                </details>
+            </ol>
+        </div>
+        <div class="box4 box">
+            <h4>NETWORK ISSUE</h4>
+            <ol>
+                <details>
+                    <summary>29).Why can't I get GPS signal?
+
+                    </summary>
+                    <p>If network error is displayed, the passenger needs to reset mobile network settings and restart
+                        the phone before re-trying.
+                        <br>
+                        Steps to be followed as under:
+                        <br>
+                        Reset Network Settings:
+                        <br>
+                        Go to settings.
+                        <br>
+                        Find System or system & Updates.
+                        <br>
+                        Select Reset or Reset options.
+                        <br>
+                        Choose Reset Wi-Fi, mobile & Bluetooth.
+                        <br>
+                        Restart your device to potentially resolve the issue.
+                    </p>
+                </details>
+                <details>
+                    <summary>30).Why I am not able to save paperless ticket in my phone? Can ticket be shown without
+                        mobile network?</summary>
+                    <p>Unlike IRCTC ticket, UTS ticket is not linked with any berth and can be duplicated easily.
+                        Permission to save the ticket is restricted to avoid duplication of ticket.
+                        <br>
+                        UTS application is having SHOW TICKET option in Login screen to show active ticket(s) without
+                        depending on network connectivity. In this way the passenger can show his paperless ticket on
+                        his mobile without mobile network.
+                    </p>
+                </details>
+            </ol>
+        </div>
+        <div class="box5 box">
+            <h4>OTHERS</h4>
+            <ol>
+
+                <details>
+                    <summary>31).How to reset the password?</summary>
+                    <p>The user can reset his/her password in case it is forgotten by using "Forgot Password" option
+                        available on the mobile application as well as website Otherwise OTP based login is also
+                        available for UTS app login.</p>
+
+                </details>
+                <details>
+                    <summary>32).How to use new sim card on existing registered mobile handset?
+                    </summary>
+                    <p>Using Close Account option, old sim card and registered mobile handset will be unregistered from
+                        UTS mobile application. User can now use new sim card on existing mobile handset to register
+                        again.</p>
+                </details>
+                <details>
+                    <summary>33).What are the helpline numbers and mail ids?
+                    </summary>
+                    <p>List of helpline numbers and mail ids are available in helpline option available in login screen
+                        of UTS application and "Contact Us" option available in utsonmobile website: <a
+                            href="https://www.utsonmobile.indianrail.gov.in/RDS/policy/contactUs">link</a></p>
+                </details>
+                <details>
+                    <summary>34).Can I check my Ticket Booking History in Application?</summary>
+                    <p>User can check booked ticket history using BOOKING HISTORY option available in application.</p>
+                </details>
+            </ol>
+        </div>
+
+    </div>
+
 </body>
 
 </html>
